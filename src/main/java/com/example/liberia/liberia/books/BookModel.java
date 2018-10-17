@@ -8,48 +8,48 @@ import java.util.Date;
 public class BookModel {
     @Id
     @GeneratedValue
-    int id;
+    private int id;
 
     @Column(nullable=false)
-    String title;
+    private String title;
 
     @Column(nullable=false)
-    int isbnNo;
+    private int isbnNo;
 
-    @Column(nullable=false)
-    String description ;
+    @Column(nullable = false)
+    private String description ;
 
-    @Column(nullable=false)
-    String edition ;
+    @Column(nullable = false)
+    private String edition ;
 
-    @Column(nullable=false)
-    String genre;
+    @Column(nullable = false)
+    private String genre;
 
-    @Column(nullable=false)
-    String language;
+    @Column(nullable = false)
+    private String language;
 
-    @Column(nullable=false)
-    String[] author;
+    @Column(nullable = false)
+    private String[] author;
 
-    @Column(nullable=false)
-    float mrp;
+    @Column(nullable = false)
+    private float mrp;
 
-    float price;
+    private float price;
 
-    @Column(nullable=false)
-    int pages;
+    @Column(nullable = false)
+    private int pages;
 
-    int discount=0;
+    private int discount=0;
 
-    int quantity = 1;
+    private int quantity = 1;
 
-    boolean isActive = true;
+    private boolean isActive = true;
 
     @Temporal(value = TemporalType.TIMESTAMP)
-    Date timestamp;
+    private Date timestamp;
 
     @Temporal(value = TemporalType.TIMESTAMP)
-    Date updated;
+    private Date updated;
 
 
     //Constructors
