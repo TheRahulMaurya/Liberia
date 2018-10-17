@@ -56,8 +56,8 @@ public class BookModel {
 
     public BookModel(){}
 
-    public BookModel(int id, String title, int isbnNo, String description, String edition, String genre, String language, String[] author, float mrp, float price, int pages, int discount,int quantity, boolean isActive, Date timestamp, Date updated) {
-        this.id = id;
+    public BookModel(String title, int isbnNo, String description, String edition, String genre, String language, String[] author, float mrp, float price, int pages, int discount,int quantity) {
+
         this.title = title;
         this.isbnNo = isbnNo;
         this.description = description;
@@ -70,9 +70,6 @@ public class BookModel {
         this.pages = pages;
         this.discount = discount;
         this.quantity = quantity;
-        this.isActive = isActive;
-        this.timestamp = timestamp;
-        this.updated = updated;
 
     }
 
