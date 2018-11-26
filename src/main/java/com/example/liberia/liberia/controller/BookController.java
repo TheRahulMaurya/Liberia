@@ -1,10 +1,10 @@
-package com.example.liberia.liberia.books;
+package com.example.liberia.liberia.controller;
 
+import com.example.liberia.liberia.repository.BookRepository;
+import com.example.liberia.liberia.model.BookModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import java.util.Date;
 
 @Controller
 public class BookController {

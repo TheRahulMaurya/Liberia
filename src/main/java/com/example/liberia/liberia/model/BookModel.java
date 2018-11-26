@@ -1,4 +1,4 @@
-package com.example.liberia.liberia.books;
+package com.example.liberia.liberia.model;
 
 import javax.persistence.*;
 import java.util.Date;

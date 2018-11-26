@@ -1,6 +1,1 @@
-.mvn
-*.iml
-*.cmd
-.target
-.mvnw
-*idea
+*.class
